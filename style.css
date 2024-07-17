@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1E1E1E;
+  background-image: url(coke.jfif);
+  background-size: unset;
+  
+}
+
+.card {
+  background-color: #F40009;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #F40009; /* Added glow effect */
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  overflow: hidden; /* Ensures image overflow is hidden */
+  margin-left: 40%;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.card p {
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+}
